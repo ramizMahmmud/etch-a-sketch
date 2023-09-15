@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    height: 640px;
+    width: 640px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    border: black solid;
+}
+
+.inner-div {
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color:white;
+    border:whitesmoke 1px solid;
+}
