@@ -1,9 +1,6 @@
 const container = document.querySelector('#container');
 const btn = document.getElementById('grid-btn');
 
-// let gridNumber = 50;
-
-
 function creatGrid(gridNumber){
 
     let gridDimension = 640/gridNumber;
